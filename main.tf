@@ -16,4 +16,6 @@ module "dev-budgets" {
   location = "westus3"
   resource_group_name = "dts-rg"
   email_contact = ["casdeone@gmail.com"]
+  subscription_name = "Azure Prod"
+  subscription_id = var.ARM_SUBSCRIPTION_ID
 }
