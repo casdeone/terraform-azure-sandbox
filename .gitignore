@@ -3,3 +3,4 @@
 .terraform/
 mylocal.auto.tfvars
 example/
+myvariables*

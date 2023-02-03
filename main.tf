@@ -12,8 +12,10 @@ module "compute" {
 
 module "dev-budgets" {
   source  = "app.terraform.io/denniscastillo/dev-budgets/azure"
-  version = "1.0.2"
+  version = "1.0.4"
   location = "westus3"
   resource_group_name = "dts-rg"
   email_contact = ["casdeone@gmail.com"]
+  subscription_name = "Azure Prod"
+  subscription_id = var.ARM_SUBSCRIPTION_ID
 }
