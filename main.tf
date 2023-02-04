@@ -12,7 +12,7 @@ module "compute" {
 
 module "dev-budgets" {
   source  = "app.terraform.io/denniscastillo/dev-budgets/azure"
-  version = "1.0.4"
+  version = "1.0.5"
   location = "westus3"
   resource_group_name = "dts-rg"
   email_contact = ["casdeone@gmail.com"]
