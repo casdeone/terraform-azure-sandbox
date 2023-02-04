@@ -19,7 +19,7 @@ resource azurerm_resource_group "dev_rg" {
 }
 module "dev-budgets" {
   source  = "app.terraform.io/denniscastillo/dev-budgets/azure"
-  version = "1.0.10"
+  version = "1.0.11"
   location = azurerm_resource_group.dev_rg.location
   resource_group_name = azurerm_resource_group.dev_rg.name
   email_contact = ["casdeone@gmail.com"]
