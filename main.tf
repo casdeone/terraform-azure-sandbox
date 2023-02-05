@@ -20,5 +20,5 @@ module "dev-budgets" {
   version = "1.1.0"
   location = var.location
   email_contacts = ["casdeone@gmail.com"]
-  notification_threhold = 10
+  notification_threhold = 2
 }
