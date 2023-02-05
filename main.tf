@@ -1,6 +1,7 @@
 #create resources
 
 data "azurerm_subscriptions" "current" {}
+/*
 module "compute" {
   source  = "app.terraform.io/denniscastillo/compute/azure"
   #source = "github.com/casdeone/terraform-azure-compute.git?ref=v.1.1.0"
@@ -11,6 +12,7 @@ module "compute" {
   environment = "nonprod"
   vm_size = "Standard_DS1_v2"
 }
+*/
 
 // create subscription budget
 module "dev-budgets" {
